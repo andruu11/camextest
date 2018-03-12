@@ -1,0 +1,490 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+@font-face {
+  font-family: 'Myriad';
+  src: url(../fonts/Myriad-Pro-Condensed.ttf), url(../fonts/Myriad-Pro-Regular.ttf), url(../fonts/Myriad-Pro-Semibold.ttf), url(../fonts/Myriad-Pro-Black-Condensed.ttf), url(../fonts/Myriad-Pro-Bold-Condensed.ttf), url(../fonts/Myriad-Pro-Light-Condensed.ttf), url(../fonts/Myriad-Pro-Bold-SemiExtended.ttf), url(../fonts/Myriad-Pro-Light-SemiCondensed.ttf); }
+body {
+  font-family: "SegoeUI", serif; }
+
+.bienvenidos {
+  background: url("../img/Fondo_Encabezado.jpg") no-repeat center top;
+  color: #FAFAFA;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.encabezado {
+  background: #272D39;
+  color: #E0E0E0;
+  padding: .5rem 0; }
+
+.encabezado .container {
+  display: flex;
+  align: center;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.encabezado .logo img {
+  width: 150px;
+  height: auto; }
+
+/*Estilos para el boton:menu*/
+.boton-menu {
+  border: 0;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 .5rem;
+  background: transparent;
+  color: #FAFAFA;
+  margin-left: auto; }
+
+.boton-menu:focus {
+  outline: 0; }
+
+.boton-menu:hover {
+  color: #FF6E40;
+  border: 1px solid #FAFAFA;
+  border-radius: 5px; }
+
+/* Menu principal */
+#menu-principal {
+  flex: 1 1 100%; }
+
+#menu-principal ul {
+  padding: 0;
+  margin: 1rem 0 0 0;
+  list-style: none; }
+
+#menu-principal a {
+  display: block;
+  padding: .8rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #FAFAFA;
+  border-top: 1px solid #E0E0E0; }
+
+#menu-principal a:hover,
+#menu-principal ul li.active a {
+  color: #FF6E40; }
+
+.titulo-banner-principal {
+  font-size: 2.5rem;
+  padding-top: 2rem; }
+
+.btn-revista {
+  padding: 20px 5px;
+  margin-top: 2.8rem;
+  transition: all 3s ease; }
+
+.letra-boton-revista {
+  font-size: .8rem; }
+
+.btn-primary {
+  color: #FAFAFA;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #FF6E40; }
+
+.btn-primary:hover {
+  color: #424242;
+  background-color: rgba(255, 242, 255, 0.5);
+  border-color: #FF6E40; }
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #424242;
+  background-color: rgba(255, 242, 255, 0.5);
+  border-color: #FF6E40; }
+
+.flecha-bajar a {
+  display: inline-block;
+  font-size: 4rem;
+  color: #FAFAFA;
+  animation: swing 1s ease-in-out infinite; }
+
+.texto-encabezado {
+  flex: 1 1 auto; }
+
+.contenido-banner {
+  padding-top: .8rem; }
+
+.servicios {
+  background: #FAFAFA;
+  color: #424242;
+  padding-bottom: 5rem; }
+
+.servicios img {
+  flex: 0 0 65px;
+  overflow: hidden;
+  margin-right: 1rem; }
+
+.servicios article {
+  display: flex;
+  align-items: center;
+  margin: 1.8rem 0; }
+
+.servicios h3 {
+  margin: 0;
+  font-size: 1rem;
+  flex: 1 1 auto; }
+
+.servicios h3 a {
+  color: #424242;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none; }
+
+.titulo-secciones {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+
+.servicios h3 a::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-size: 3.5rem;
+  margin-left: 1rem;
+  opacity: .5;
+  position: relative;
+  left: 0;
+  transition: all .5s ease; }
+
+.servicios h3 a:hover::after {
+  left: -.5rem;
+  opacity: 1;
+  color: #FF6E40; }
+
+.cronograma {
+  background: url("../img/fondo_cronograma.jpg") no-repeat center top;
+  color: #FAFAFA;
+  background-size: cover;
+  height: 100%;
+  flex: display;
+  flex-direction: column; }
+
+.titulo-seccion-cronograma {
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  display: flex;
+  flex-direction: column; }
+
+.evento {
+  background: transparent;
+  padding: 1rem;
+  border: 0.1rem solid #FAFAFA;
+  border-radius: .3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto; }
+
+.cronograma .evento img {
+  width: 200px;
+  border-radius: .2rem;
+  flex: 1 1 auto; }
+
+.evento .titulo-evento {
+  margin-top: .5rem;
+  font-size: .8rem;
+  margin-bottom: 1rem; }
+
+.evento .fecha-evento {
+  margin-bottom: .1rem;
+  font-size: .7rem; }
+
+.evento .hora-evento {
+  margin-bottom: .4rem;
+  font-size: .7rem; }
+
+.evento .btn-evento {
+  font-size: .7rem; }
+
+.cronograma .owl-nav {
+  display: flex;
+  justify-content: center;
+  margin: .1rem 0; }
+
+.cronograma .owl-prev,
+.cronograma .owl-next {
+  font-size: 2.5rem;
+  margin: 0 .5rem;
+  color: #FAFAFA;
+  transition: all .5s ease; }
+
+.cronograma .owl-prev:hover,
+.cronograma .owl-next:hover {
+  color: #FF6E40; }
+
+.cronograma a img {
+  width: 60px;
+  margin-right: 1rem;
+  animation: swing 1s ease-in-out infinite;
+  margin-bottom: 2rem; }
+
+.guia-empresarial {
+  background: #424242;
+  color: #FAFAFA;
+  padding-bottom: 5rem; }
+
+.empresa {
+  display: flex;
+  justify-content: center;
+  background: #F9F9F9;
+  padding: .1rem;
+  border: 0.1rem solid #FAFAFA;
+  border-radius: .3rem;
+  margin-bottom: 2rem; }
+
+.col-center {
+  float: none;
+  margin: 0 auto; }
+
+.empresa img {
+  width: 150px;
+  border-radius: .2rem; }
+
+.contenido-empresa {
+  color: #424242;
+  padding: 2rem; }
+
+.boton-empresa {
+  margin-top: 1rem;
+  text-decoration: none; }
+
+.boton-empresa a .texto-boton {
+  font-size: 1rem;
+  padding-left: 1rem; }
+
+hr {
+  height: .3rem;
+  background-color: #FF6E40;
+  width: 100%; }
+
+.boton-empresa a .btn .btn-secondary .btn-lg {
+  text-decoration: none; }
+
+.btn-secondary {
+  color: #F9F9F9;
+  background-color: #FF6E40;
+  border-color: #FF6E40; }
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+  color: #F9F9F9;
+  background-color: #FF6E40;
+  border-color: #FF6E40; }
+
+.footer {
+  background: #272D39;
+  color: #FAFAFA;
+  padding-bottom: 5rem; }
+
+.clase-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+
+.clase-social i {
+  text-decoration: none;
+  color: #FAFAFA;
+  padding-bottom: 3rem; }
+
+.clase-social ul {
+  list-style: none;
+  text-align: center; }
+
+.clase-social p {
+  font-size: .7rem; }
+
+.clase-social .a {
+  flex: 1 0 50%; }
+
+.clase-social .z {
+  flex: 1 0 50%; }
+
+p .copyrigth {
+  flex: 1 1 100%; }
+
+.paginas-internas .bienvenidos {
+  height: 50vh; }
+
+.paginas-internas .ruta {
+  background: #FF6E40;
+  color: #FAFAFA;
+  padding: .8rem 0; }
+
+.paginas-internas .contenedor-acordeon {
+  background: #F9F9F9; }
+
+.paginas-internas a {
+  color: #FAFAFA;
+  text-decoration: underline; }
+
+.paginas-internas a:hover {
+  color: #FAFAFA;
+  text-decoration: none; }
+
+.paginas-internas .contenedor-acordeon {
+  padding: 3rem 0; }
+
+.paginas-internas .panel .panel-heading {
+  font-size: 1.2rem; }
+
+.paginas-internas h5 {
+  background: #FF6E40;
+  border-radius: 5px; }
+
+.paginas-internas .card-header a {
+  display: block;
+  padding: .3rem;
+  text-decoration: none; }
+
+.paginas-internas p {
+  color: #424242; }
+
+.paginas-internas .contenedor-acordeon aside img {
+  padding-top: 5rem; }
+
+@media (min-width: 768px) {
+  .bienvenidos {
+    background: url("../img/Fondo_Encabezado.jpg") no-repeat center top;
+    color: #FAFAFA;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; }
+
+  #menu-principal {
+    height: auto !important;
+    display: block;
+    flex: 0 1 auto;
+    margin-left: auto;
+    order: 1;
+    margin-rigth: 0px; }
+
+  #menu-principal ul {
+    display: flex;
+    margin: 0 0 0 0; }
+
+  #menu-principal ul li a {
+    padding: .8rem;
+    text-transform: capitalize;
+    margin: 0 .3rem;
+    border-top: 0px;
+    border-bottom: 4px solid transparent;
+    font-size: .9rem; }
+
+  #menu-principal ul li.active a,
+  #menu-principal ul li a:hover {
+    color: #FF6E40;
+    border-bottom: 4px solid; }
+
+  .servicios article {
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: 0;
+    text-align: center;
+    justify-content: space-between; }
+
+  .servicios img {
+    flex: 0 0 160px;
+    overflow: hidden;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    transition: all 1s ease; }
+
+  .servicios article:hover img {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d; }
+
+  .servicios h3 a::after {
+    display: none; }
+
+  .servicios h3 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem; }
+
+  .servicios p {
+    margin-top: auto; }
+
+  .btn-revista {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem; }
+
+  .cronograma a img {
+    width: 80px; } }
+@media (max-width: 768px) and (orientation: landscape) {
+  .bienvenidos {
+    height: 100%; }
+
+  .btn-revista {
+    margin-top: .2rem; }
+
+  .btn-revista {
+    padding: 15px 10px;
+    margin-top: .1rem;
+    transition: all 3s ease; }
+
+  .titulo-banner-principal {
+    font-size: 2rem;
+    padding-top: .3rem; }
+
+  .flecha-bajar a {
+    font-size: 2rem; }
+
+  .cronograma {
+    height: 100%; }
+
+  .cronograma a img {
+    width: 60px; } }
+@media (width: 812px) and (orientation: landscape) {
+  .bienvenidos {
+    height: 100%; }
+
+  .btn-revista {
+    margin-top: .2rem; }
+
+  .btn-revista {
+    padding: 15px 10px;
+    margin-top: .1rem;
+    transition: all 3s ease; }
+
+  .titulo-banner-principal {
+    font-size: 2rem;
+    padding-top: .3rem; }
+
+  .flecha-bajar a {
+    font-size: 2rem; }
+
+  .cronograma {
+    height: 100%; }
+
+  .cronograma a img {
+    width: 60px; } }
+@media (max-width: 349px) {
+  .clase-social .z {
+    flex: 1 0 55%; } }
+@media (max-width: 318px) {
+  .letra-boton-revista {
+    font-size: .6rem; } }
+@media (max-width: 770px) {
+  .empresa {
+    flex-wrap: wrap; } }
+@keyframes swing {
+  from {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(6px); }
+  to {
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=estilos.css.map */
