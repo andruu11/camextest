@@ -404,13 +404,31 @@ p .copyrigth{
 	padding:.3rem;
 	text-decoration: none;
 }
-.paginas-internas p{
+.paginas-internas .contenedor-acordeon p{
 	color: $cuarto;
 }
 .paginas-internas .contenedor-acordeon  aside img{
 	padding-top: 5rem;
 }
+//estilos para contactos
+.paginas-internas-contactos .bienvenidos{
+	background: none;
+	color: $septimo;
+	height: 20%;
 
+}
+
+.paginas-internas-contactos .clase-social i{
+	text-decoration:none;
+	color: $cuarto;
+	padding-bottom:rem;
+}
+.paginas-internas-contactos .contenedor-acordeon{
+	padding: 3rem 0;
+}
+.paginas-internas-contactos .footer p{
+	padding-top:2.5rem;
+}
 
 //media queries para desktop
 @media (min-width: 768px) { 

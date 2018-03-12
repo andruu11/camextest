@@ -347,11 +347,27 @@ p .copyrigth {
   padding: .3rem;
   text-decoration: none; }
 
-.paginas-internas p {
+.paginas-internas .contenedor-acordeon p {
   color: #424242; }
 
 .paginas-internas .contenedor-acordeon aside img {
   padding-top: 5rem; }
+
+.paginas-internas-contactos .bienvenidos {
+  background: none;
+  color: #FAFAFA;
+  height: 20%; }
+
+.paginas-internas-contactos .clase-social i {
+  text-decoration: none;
+  color: #424242;
+  padding-bottom: rem; }
+
+.paginas-internas-contactos .contenedor-acordeon {
+  padding: 3rem 0; }
+
+.paginas-internas-contactos .footer p {
+  padding-top: 2.5rem; }
 
 @media (min-width: 768px) {
   .bienvenidos {
