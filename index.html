@@ -60,108 +60,415 @@
         </div>
     </section>
     <main class="servicios" id="servicios">
+           <!-- Modal -->
+            <div class="modal" id="Asesoramiento" tabindex="-1" role="dialog" aria-labelledby="exampleModalVerticalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalVerticalLabel">Asesoramiento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    CAMEX cuenta con un Centro Publico integral de servicios especializados en el crecimiento de sus actividades, Gestiones de exportación Asesoramiento Empresarial y todo el Procedimiento de exportación orientado al sector.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal -->
+            <!-- Modal -->
+            <div class="modal" id="Capacitacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalVerticalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalVerticalLabel">Capacitación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Contamos con programas de Capacitación, a fin de apropiar las capacidades para el adecuado desempeño del Equipo Humano de una entidad, trabajo eficiente y desarrollo personal para lograr los objetivos definidos por cargo, área o proceso.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal -->
+            <!-- Modal -->
+            <div class="modal" id="Desarrollo" tabindex="-1" role="dialog" aria-labelledby="exampleModalVerticalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalVerticalLabel">Desarrollo Empresarial</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Brindamos Orientación acerca del medio y forma en la que una empresa y su personal puedan optimizar todos sus recursos, la innovación de productos, y demás procesos para que la empresa crezca con el fin de expandirse a nivel internacional.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal -->
         <div class="container">
-        <h2 class="h3 text-center font-weight-bold titulo-secciones">Nuestros Servicios<hr></h2>
+          <h2 class="h3 text-center font-weight-bold titulo-secciones">Nuestros Servicios<hr></h2>
        <div class="row">
         <article class="asesoramiento col-md-4">
             <img src="assets/img/asesoramiento.svg" alt="Servicio de asesoramiento">
-            <h3 class="text-sm-center font-weight-bold"><a href="#">Asesoramiento</a></h3>
-            <p class="asesoramiento hidden-sm-down">Brindamos Orientación acerca del medio y forma en la que una empresa y su personal puedan optimizar todos sus recursos, la innovación de productos, y demás procesos para que la empresa crezca con el fin de internacionalizarse.</p>    
+            <h3 class="text-sm-center font-weight-bold"><a href="#" data-toggle="modal" data-target="#Asesoramiento">Asesoramiento</a></h3>
+            <p class="asesoramiento hidden-sm-down">CAMEX cuenta con un Centro Publico integral de servicios especializados en el crecimiento de sus actividades, Gestiones de exportación Asesoramiento Empresarial y todo el Procedimiento de exportación orientado al sector.</p>    
               
         </article>
         <article class="capacitacion col-md-4">
             <img src="assets/img/capacitacion.svg" alt="Servicio de Capacitacion">
-            <h3 class="text-sm-center font-weight-bold"><a href="#">Capacitación</a></h3> 
-            <div class="hidden-sm-down">
-            <p>Brindamos Orientación acerca del medio y forma en la que una empresa y su personal puedan optimizar todos sus recursos, la innovación de productos, y demás procesos para que la empresa crezca con el fin de internacionalizarse.</p></div>   
+            <h3 class="text-sm-center font-weight-bold"><a href="#" data-toggle="modal" data-target="#Capacitacion">Capacitación</a></h3> 
+            <div class="hidden-sm-down ">
+            <p>Contamos con programas de Capacitación, a fin de apropiar las capacidades para el adecuado desempeño del Equipo Humano de una entidad, trabajo eficiente y desarrollo personal para lograr los objetivos definidos por cargo, área o proceso.</p></div>   
         </article>
         <article class="desarrollo-empresarial col-md-4">
             <img src="assets/img/desarrollo-empresarial.svg" alt="Desarrollo empresarial">
-            <h3 class="text-sm-center font-weight-bold"><a href="#">Desarrollo Empresarial</a></h3>
-            <p class="hidden-sm-down">Brindamos Orientación acerca del medio y forma en la que una empresa y su personal puedan optimizar todos sus recursos, la innovación de productos, y demás procesos para que la empresa crezca con el fin de internacionalizarse.</p>    
+            <h3 class="text-sm-center font-weight-bold"><a href="#" data-toggle="modal" data-target="#Desarrollo">Desarrollo Empresarial</a></h3>
+            <p class="hidden-sm-down">Brindamos Orientación acerca del medio y forma en la que una empresa y su personal puedan optimizar todos sus recursos, la innovación de productos, y demás procesos para que la empresa crezca con el fin de expandirse a nivel internacional.</p>    
         </article>
        </div>
     </div>
     </main>
-    <section class="cronograma">
-        <div class="container">
+        <section class="cronograma">
+    <!-- Modal evento1 -->
+    <div class="modal fade" id="Evento1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Logistica y Operativa Portuaria</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+             <img src="assets/img/logisticaportuaria.jpg" class="img-fluid" alt="Cronograma-1">
+            <br><br><h5>Incluye<hr></h5>
+            <p>• Pasajes ida y vuelta La Paz – Arica La Paz</p>
+            <p>• Alimentación Completa (desayuno, almuerzo, cena)</p>
+            <p>• Hotel tres estrellas (Sol de Arica) tv cable, wifi, piscina, baño privado</p>
+            <p>• Visita a Puerto </p>
+            <p>• Cuatro seminarios uno en La Paz y Tres en Arica</p>
+            <p>• Kit de seguridad (cascos y chalecos reflectantes)</p>
+            <p>• Seguro contra accidentes</p>
+            <p>• Tours Catedral, morro, cuevas de anzota</p>
+            <p>• Shopping</p>
+            <p>• Tarde de Playa</p>
+            <p>• Certificado</p>
+            <p>• Cd, editado del viaje fotografías</p>
+            <h5>Inversión <hr></h5>
+            <p>Estudiantes Bs. 1500</p>
+            <p>Entidades de Convenio Bs. 1800</p>
+            <p>Público en General Bs. 2000</p>
+            <h5>Lugar <hr></h5>
+            <p>Primer seminario: La Paz - Bolivia 9 de marzo, 19:00 hrs</p>
+            <p>Lugar: Coexa - Pasaje peatonal Edif. Libertad piso 8 oficina 809</p>
+            <p>Viaje a Arica 16 de marzo, 4:00am</p>
+            <p>Lugar: Terminal de buses La Paz</p>
+            <p>Llegada a La Paz 18 de marzo, 20:00hrs</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Fin evento1 -->
+     <!-- Modal evento2-->
+    <div class="modal fade" id="Evento2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Logistica y Operativa Portuaria</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+             <img src="assets/img/formacionejecutivos.jpg" class="img-fluid" alt="Cronograma-1">
+            <br><br><h5>Contenido <hr></h5>
+            <p>•   Técnicas de Ventas</p>
+            <p>•   Negociación efectiva</p>
+            <p>•   Atención al cliente</p>
+            <h5>Inversión <hr></h5>
+            <p>Público en general Bs.- 250 </p>
+            <p>Socios de CAMEX o grupos de tres o más personas Bs.- 230</p>
+            <h5>Lugar <hr></h5>
+            <p>Salón de la Camara de Exportadores</p>
+            <p>Av. Arce esq. Goitia Nº 2021</p>
+            <h5>Incluye <hr></h5>
+            <p>Material de Apoyo</p>
+            <p>Refrigerio</p>
+            <p>Certificado con valor curricular de 9 horas</p>
+            <h5>Fecha y Hora <hr></h5>
+            <p>12/03/2018 - 14/03/2018</p>
+            <p>19:00 - 22:00</p> 
+            <h5>Contactos <hr></h5>
+            <div class="clase-social">
+                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59160515661"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
+                                </a></div>
+                                <div class="a"><a href="https://www.facebook.com/camexbolivia/"  target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></div>
+                                <div class="a"><a href="https://m.me/camexbolivia"  target="_blank"><i class="fab fa-facebook-messenger fa-3x"></i></a></div>
+                                <div class="a"><a href="tel:+59122442826"  target="_blank"><i class="fas fa-phone-volume fa-3x"></i></a></div>          
+                                <div class="a"><a href="tel:+59160515661"  target="_blank"><i class="fas fa-mobile-alt fa-3x"></i></a></div>
+                                <div class="a">
+                                    <a href="mailto:capacitacion@camexbolivia.com?subject=Infomacion%de%capacitacion%"  target="_blank"><i class="fas fa-envelope fa-3x"  target="_blank"></i></a></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Fin evento2 -->
+    <!-- Modal evento 3-->
+    <div class="modal fade" id="Evento3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Evento3">Emprendedurismo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+             <img src="assets/img/emprendedurismo.jpg" class="img-fluid" alt="Cronograma-1">
+            <br><br><h5>Contenido <hr></h5>
+            <p>• El emprendedor</p>
+            <p>• Idea de negocio</p>
+            <p>• Plan de empresa</p>
+            <p>• El entorno</p>
+            <p>• Plan de negocio</p>
+            <p>• Desarrollo y crecimiento empresarial</p>
+            <p>• Formalización empresarial</p>
+            <h5>Inversión <hr></h5>
+            <p>Público en general Bs.- 450 </p>
+            <p>Socios de CAMEX o grupos de tres o más personas Bs.- 420</p>
+            <h5>Lugar <hr></h5>
+            <p>Salón de la Camara de Exportadores</p>
+            <p>Av. Arce esq. Goitia Nº 2021</p>
+            <h5>Incluye <hr></h5>
+            <p>Material de Apoyo</p>
+            <p>Refrigerio</p>
+            <p>Certificado con valor curricular de 15 horas</p>
+            <h5>Fecha y Hora <hr></h5>
+            <p>5/03/2018 - 9/03/2018</p>
+            <p>19:00 - 22:00</p> 
+            <h5>Contactos <hr></h5>
+            <div class="clase-social">
+                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59160515661"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
+                                </a></div>
+                                <div class="a"><a href="https://www.facebook.com/camexbolivia/"  target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></div>
+                                <div class="a"><a href="https://m.me/camexbolivia"  target="_blank"><i class="fab fa-facebook-messenger fa-3x"></i></a></div>
+                                <div class="a"><a href="tel:+59122442826"  target="_blank"><i class="fas fa-phone-volume fa-3x"></i></a></div>          
+                                <div class="a"><a href="tel:+59160515661"  target="_blank"><i class="fas fa-mobile-alt fa-3x"></i></a></div>
+                                <div class="a">
+                                    <a href="mailto:capacitacion@camexbolivia.com?subject=Infomacion%de%capacitacion%"  target="_blank"><i class="fas fa-envelope fa-3x"  target="_blank"></i></a></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Fin evento3 -->
+    <!-- Modal evento 4-->
+    <div class="modal fade" id="Evento4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Evento4">Negocios y empresas por internet</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/comercioelectronico.jpg" class="img-fluid" alt="Cronograma-1">
+            <br><br><h5>Contenido <hr></h5>
+            <p>• Conceptos basicos</p>
+            <p>• Generaciones tecnológicas</p>
+            <p>• Herramientas tecnológicas de la empresa TIC’s</p>
+            <p>• Internet</p>
+            <p>• La nueva economia</p>
+            <p>• E-Business</p>
+            <p>• E-Commerce</p>
+            <h5>Inversión <hr></h5>
+            <p>Público en general Bs.- 400 </p>
+            <p>Socios de CAMEX o grupos de tres o más personas Bs.- 380</p>
+            <h5>Lugar <hr></h5>
+            <p>Salón de la Camara de Exportadores</p>
+            <p>Av. Arce esq. Goitia Nº 2021</p>
+            <h5>Incluye <hr></h5>
+            <p>Material de Apoyo</p>
+            <p>Refrigerio</p>
+            <p>Certificado con valor curricular de 15 horas</p>
+            <h5>Requisitos <hr></h5>
+            <p>Contar con una computadora portátil (recomendable).</p>
+            <h5>Fecha y Hora <hr></h5>
+            <p>26/02/2018 - 02/03/2018</p>
+            <p>19:00 - 22:00</p> 
+            <h5>Contactos <hr></h5>
+            <div class="clase-social">
+                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59160515661"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
+                                </a></div>
+                                <div class="a"><a href="https://www.facebook.com/camexbolivia/"  target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></div>
+                                <div class="a"><a href="https://m.me/camexbolivia"  target="_blank"><i class="fab fa-facebook-messenger fa-3x"></i></a></div>
+                                <div class="a"><a href="tel:+59122442826"  target="_blank"><i class="fas fa-phone-volume fa-3x"></i></a></div>          
+                                <div class="a"><a href="tel:+59160515661"  target="_blank"><i class="fas fa-mobile-alt fa-3x"></i></a></div>
+                                <div class="a">
+                                    <a href="mailto:capacitacion@camexbolivia.com?subject=Infomacion%de%capacitacion%"  target="_blank"><i class="fas fa-envelope fa-3x"  target="_blank"></i></a></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Fin evento4 -->
+     <!-- Modal evento 5-->
+    <div class="modal fade" id="Evento5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Evento5">Manejo Básico Del Sistema Facilito Del Sin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/SIN.jpg" class="img-fluid" alt="Cronograma-1">
+            <br><br><h5>Contenido <hr></h5>
+            <p>• Cumplimiento de los Deberes Formales.</p>
+            <p>• Llevar un adecuado control y seguimiento de las obligaciones tributarias.</p>
+            <p>• Operar con formatos del curso para cumplimiento de Impuestos.</p>
+            <h5>Inversión <hr></h5>
+            <p>Público en general Bs.- 250 </p>
+            <p>Socios de CAMEX o grupos de tres o más personas Bs.- 230</p>
+            <h5>Lugar <hr></h5>
+            <p>Salón de la Camara de Exportadores</p>
+            <p>Av. Arce esq. Goitia Nº 2021</p>
+            <h5>Incluye <hr></h5>
+            <p>Material de Apoyo</p>
+            <p>Refrigerio</p>
+            <p>Certificado con valor curricular</p>
+            <h5>Fecha y Hora <hr></h5>
+            <p>20/02/2018 - 20/02/2018</p>
+            <p>09:00 - 11:30</p> 
+            <h5>Contactos <hr></h5>
+            <div class="clase-social">
+                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59160515661"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
+                                </a></div>
+                                <div class="a"><a href="https://www.facebook.com/camexbolivia/"  target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></div>
+                                <div class="a"><a href="https://m.me/camexbolivia"  target="_blank"><i class="fab fa-facebook-messenger fa-3x"></i></a></div>
+                                <div class="a"><a href="tel:+59122442826"  target="_blank"><i class="fas fa-phone-volume fa-3x"></i></a></div>          
+                                <div class="a"><a href="tel:+59160515661"  target="_blank"><i class="fas fa-mobile-alt fa-3x"></i></a></div>
+                                <div class="a">
+                                    <a href="mailto:capacitacion@camexbolivia.com?subject=Infomacion%de%capacitacion%"  target="_blank"><i class="fas fa-envelope fa-3x"  target="_blank"></i></a></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Fin evento5 -->
+    <div class="container">
+  
         <h2 class="h3 text-center font-weight-bold titulo-seccion-cronograma">Cronograma<hr></h2>
         <div class="owl-carousel">
-        <article class="evento">
-            <img src="assets/img/img-cronograma.jpg" alt="Cronograma-1">
-            <h3 class="h5 text-center font-weight-bold titulo-evento">Curso de comercio electronico y negocios por internet.</h3> 
-            <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 28/02/2018 - 5/03/2018</p>
-            <p class="hora-evento"><i class="fas fa-clock"></i> 19:30 - 22:00</p>
-            <a href="#" class="btn btn-secondary btn-evento">Mas Información</a>
-        </article>
-        <article class="evento">
-            <img src="assets/img/img-cronograma.jpg" alt="Cronograma-2">
-            <h3 class="h5 text-center font-weight-bold titulo-evento btn-evento">Curso de comercio electronico y negocios por internet.</h3> 
-            <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 28/02/2018 - 5/03/2018</p>
-            <p class="hora-evento"><i class="fas fa-clock"></i> 19:30 - 22:00</p>
-            <a href="#" class="btn btn-secondary btn-evento">Mas Información</a>
-        </article>
-        <article class="evento">
-            <img src="assets/img/img-cronograma.jpg" alt="Cronograma-3">
-            <h3 class="h5 text-center font-weight-bold titulo-evento btn-evento">Curso de comercio electronico y negocios por internet.</h3> 
-            <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 28/02/2018 - 5/03/2018</p>
-            <p class="hora-evento"><i class="fas fa-clock"></i> 19:30 - 22:00</p>
-            <a href="#" class="btn btn-secondary btn-evento">Mas Información</a>
-        </article>
-        <article class="evento">
-            <img src="assets/img/img-cronograma.jpg" alt="Cronograma-3">
-            <h3 class="h5 text-center font-weight-bold titulo-evento btn-evento">Curso de comercio electronico y negocios por internet.</h3> 
-            <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 28/02/2018 - 5/03/2018</p>
-            <p class="hora-evento"><i class="fas fa-clock"></i> 19:30 - 22:00</p>
-            <a href="#" class="btn btn-secondary btn-evento">Mas Información</a>
-        </article>
-        <article class="evento">
-            <img src="assets/img/img-cronograma.jpg" alt="Cronograma-3">
-            <h3 class="h5 text-center font-weight-bold titulo-evento btn-evento">Curso de comercio electronico y negocios por internet.</h3> 
-            <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 28/02/2018 - 5/03/2018</p>
-            <p class="hora-evento"><i class="fas fa-clock"></i> 19:30 - 22:00</p>
-            <a href="#" class="btn btn-secondary btn-evento">Mas Información</a>
-        </article>
+            <article class="evento">
+                <img src="assets/img/logisticaportuaria.jpg" alt="Cronograma-1">
+                <h3 class="h3 text-center font-weight-bold titulo-evento">Curso Internacional "Logistica y Operativa Portuaria"</h3><p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 16/03/2018 - 18/03/2018</p>
+                <p class="hora-evento"><i class="fas fa-clock"></i> 3 dias y 2 noches</p>
+                <a href="#" class="btn btn-secondary btn-evento" data-toggle="modal" data-target="#Evento1">Mas Información</a>
+            </article>
+            <article class="evento">
+                <img src="assets/img/formacionejecutivos.jpg" alt="Cronograma-1">
+                <h3 class="h3 text-center font-weight-bold titulo-evento">Capacitación de Formación de ejecutivos comerciales </h3><p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 12/03/2018 - 14/03/2018</p>
+                <p class="hora-evento"><i class="fas fa-clock"></i> 19:00 - 22:00</p>
+                <a href="#" class="btn btn-secondary btn-evento" data-toggle="modal" data-target="#Evento2">Mas Información</a>
+            </article>
+            <article class="evento">
+                <img src="assets/img/emprendedurismo.jpg" alt="Cronograma-1">
+                <h3 class="h3 text-center font-weight-bold titulo-evento">Emprendedurismo, Creación y Formación de negocios.</h3> 
+                <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 5/03/2018 - 9/03/2018</p>
+                <p class="hora-evento"><i class="fas fa-clock"></i> 19:00 - 22:00</p>
+                <a href="#" class="btn btn-secondary btn-evento" data-toggle="modal" data-target="#Evento3">Mas Información</a>
+            </article>
+            <article class="evento">
+                <img src="assets/img/comercioelectronico.jpg" alt="Cronograma-1">
+                <h3 class="h3 text-center font-weight-bold titulo-evento">E-commerce "Negocios y empresas por internet"</h3> 
+                <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 26/02/2018 - 02/03/2018</p>
+                <p class="hora-evento"><i class="fas fa-clock"></i> 19:00 - 22:00</p>
+                <a href="#" class="btn btn-secondary btn-evento" data-toggle="modal" data-target="#Evento4">Mas Información</a>
+            </article>
+            <article class="evento">
+                <img src="assets/img/SIN.jpg" alt="Cronograma-1">
+                <h3 class="h3 text-center font-weight-bold titulo-evento">Capacitación Manejo Basico del Sistema Facilito del SIN</h3> 
+                <p class="fecha-evento"><i class="fas fa-calendar-alt"></i> 20/02/2018 - 22/02/2018</p>
+                <p class="hora-evento"><i class="fas fa-clock"></i> 9:00 - 11:30</p>
+                <a href="#" class="btn btn-secondary btn-evento" data-toggle="modal" data-target="#Evento5">Mas Información</a>
+            </article>
         </div>
         <div class="boton-eventos text-right">
             <a href="#"><img src="assets/img/mas-eventos.svg" class="boton-calendario" alt=""></a>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
     <section class="guia-empresarial">
         <div class="container">
         <h2 class="h3 text-center font-weight-bold titulo-secciones">Directorio Empresarial<hr></h2>
         <div class="row">
             <div class="col-sm-8 col-md-8 col-center">
-            <article class="empresa">
-                <img src="assets/img/logoboa.svg" alt="Logo Empresa">
+            <article class="empresa empresa-uno">
+                <img src="assets/img/logo_inti.png" alt="Logo Empresa">
                 <div class="contenido-empresa">
-                <h3 class="titulo-empresa text-center">BOA<hr></h3>
-                <p><i class="fas fa-industry fa-sm"></i> Sevicio de Transporte Aereo</p>
-                <p><i class="fas fa-map-marker-alt fa-sm"></i> Av. 6 de Marzo Calle 10 Aeropuerto Intenacional de El Alto</p>
-                <p><i class="fas fa-phone fa-sm"></i> 2458963 - 2457896</p>
+                <h3 class="titulo-empresa text-center">Inti<hr></h3>
+                <p><i class="fas fa-industry fa-sm"></i> Industria de Medicamentos</p>
+                <p><i class="fas fa-map-marker-alt fa-sm"></i> Calle Lucas Jaimes #1959, Miraflores, La Paz.</p>
+                <p><i class="fas fa-phone fa-sm"></i> 2-2176600 </p>
                 </div>
             </article>
             </div>
         
         <div class="col-sm-8 col-md-8 col-center">
-            <article class="empresa">
-                <img src="assets/img/logoboa.svg" alt="Logo Empresa">
+            <article class="empresa empresa-dos">
+                <img src="assets/img/logo_purecotton.png" alt="Logo Empresa">
                 <div class="contenido-empresa">
-                <h3 class="titulo-empresa text-center">BOA<hr></h3>
-                <p><i class="fas fa-industry fa-sm"></i> Sevicio de Transporte Aereo</p>
-                <p><i class="fas fa-map-marker-alt fa-sm"></i> Av. 6 de Marzo Calle 10 Aeropuerto Intenacional de El Alto</p>
-                <p><i class="fas fa-phone fa-sm"></i> 2458963 - 2457896</p>
+                <h3 class="titulo-empresa text-center">Pure Cotton<hr></h3>
+                <p><i class="fas fa-industry fa-sm"></i> Industria Textil</p>
+                <p><i class="fas fa-map-marker-alt fa-sm"></i> Av. Fuerza Naval Nro.79 entre calles 25 y 26 de Calacoto Zona Sur </p>
+                <p><i class="fas fa-phone fa-sm"></i> 2-2795333​</p>
                 </div>
             </article>
             </div>
         <div class="col-sm-8 col-md-8 col-center">
-            <article class="empresa">
-                <img src="assets/img/logoboa.svg" alt="Logo Empresa">
+            <article class="empresa empresa-uno">
+                <img src="assets/img/logo_cascada.png" alt="Logo Empresa">
                 <div class="contenido-empresa">
-                <h3 class="titulo-empresa text-center">BOA<hr></h3>
-                <p><i class="fas fa-industry fa-sm"></i> Sevicio de Transporte Aereo</p>
-                <p><i class="fas fa-map-marker-alt fa-sm"></i> Av. 6 de Marzo Calle 10 Aeropuerto Intenacional de El Alto</p>
+                <h3 class="titulo-empresa text-center">La Cascada<hr></h3>
+                <p><i class="fas fa-industry fa-sm"></i> Industria de Bebidas</p>
+                <p><i class="fas fa-map-marker-alt fa-sm"></i> Villa Fatima, Calle Santa Rosa, La Paz</p>
                 <p><i class="fas fa-phone fa-sm"></i> 2458963 - 2457896</p>
                 </div>
             </article>
@@ -181,21 +488,21 @@
                     
                         <div class="clase-social">
                             <div class="a">
-                                <a href="tel:+59170526905"><i class="fas fa-phone-volume fa-3x"></i></a>
-                                    <p>+591 2485245</p>
+                                <a href="tel:+59122442826"><i class="fas fa-phone-volume fa-3x"></i></a>
+                                    <p>+591 2-442826</p>
                             </div>
                             <div class="a">
-                                <a href="mailto:jhass11_candia_valdez@outlook.com?subject=Mensaje%20Enviado%20desde%20el%20sitio%20Web">
+                                <a href="mailto:info@camexbolivia.com?subject=Mensaje%20Enviado%20desde%20el%20sitio%20Web">
                                 <i class="fas fa-envelope fa-3x"></i></a>
-                                    <p>capacitacion@camexbolivia.com</p>
+                                    <p>info@camexbolivia.com</p>
                             </div>
                             <div class="a">
                                 <i class="fas fa-map-marker-alt fa-3x"></i>
                                     <p>Av. Arce esq. Goitia # 2021</p>
                             </div>
                             <div class="z">
-                                <a href="tel:+59170526905"><i class="fas fa-mobile-alt fa-3x" ></i></a>
-                                    <p>+591 70526987</p>
+                                <a href="tel:+59160515661"><i class="fas fa-mobile-alt fa-3x" ></i></a>
+                                    <p>+591 60515661</p>
                             </div>
                         </div>
    
@@ -203,7 +510,7 @@
                 <div class="redes-sociales col-sm-12 col-md-6">
                     <h2 class="h3 text-center font-weight-bold titulo-secciones">Redes Sociales<hr></h2>
                         <div class="clase-social">
-                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59170628003"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
+                               <div class="a"><a href="https://api.whatsapp.com/send?phone=59160515661"  target="_blank"><i class="fab fa-whatsapp fa-3x"></i>
                                 </a></div>
                                 <div class="a"><a href="https://www.facebook.com/camexbolivia/"  target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></div>
                                 <div class="a"><a href="https://www.instagram.com/camexlapaz/"  target="_blank"><i class="fab fa-instagram fa-3x"></i></a></div>
@@ -219,6 +526,7 @@
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
     <script src="assets/js/carousel-conf.js" type="text/javascript"></script>
+
     <!-- Google Card-->
     <script type="application/ld+json">
             {

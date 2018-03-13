@@ -236,14 +236,16 @@ flex: 1 1 auto;
 	margin-top: .5rem;
 	font-size:.8rem;
 	margin-bottom: 1rem;
+	 align-self: center; 
+	 padding: 0 40px;
 }
 .evento .fecha-evento{
 	margin-bottom:.1rem;
-	font-size:.7rem;
+	font-size:.9rem;
 }
 .evento .hora-evento{
 	margin-bottom:.4rem;
-	font-size:.7rem;
+	font-size:.9rem;
 }
 .evento .btn-evento{
 	font-size:.7rem;
@@ -273,6 +275,16 @@ flex: 1 1 auto;
 	animation: swing 1s ease-in-out infinite;
 	margin-bottom:2rem;
   }
+ .cronograma .modal{
+ 	color: $cuarto;
+ }
+
+ .cronograma .modal img{
+ 	margin-bottom:5px;
+ }
+  .cronograma .modal .clase-social i{
+ 	color:$cuarto;
+ }
 //seccion guia-empresarial
 .guia-empresarial{
 	background:$cuarto;
@@ -283,23 +295,45 @@ flex: 1 1 auto;
 }
 .empresa{
 	display:flex;
-	//flex-wrap:wrap;
 	justify-content:center;
-	background:$octavo;
 	padding:.1rem;
 	border: .1rem solid $septimo;
     border-radius: .3rem;
     margin-bottom:2rem;
 }
+//empresa uno
+.empresa-uno{
+	background:$octavo;
+}
+.empresa-uno img{
+	width: 150px;
+    height: 160px;
+    border-radius: .2rem;
+    align-self: center;
+    padding: .8rem;
+}
+.empresa-uno .contenido-empresa{
+	color:$cuarto;
+}
+//empresa dos
+.empresa-dos{
+	background:#181818;
+}
+.empresa-dos img{
+	width: 150px;
+    height: 50px;
+    border-radius: .2rem;
+    align-self: center;
+    padding: .8rem;
+}
+.empresa-dos .contenido-empresa{
+	color:$septimo;
+}
 .col-center{
     float: none;
     margin: 0 auto;
 }
-.empresa img{
-	width:150px;
-	border-radius: .2rem;
-	
-}
+
 .contenido-empresa{
 color:$cuarto;
 padding: 2rem;
@@ -431,7 +465,7 @@ p .copyrigth{
 }
 
 //media queries para desktop
-@media (min-width: 768px) { 
+@media (min-width: 768px){ 
 .bienvenidos{
 	background:url("../img/Fondo_Encabezado.jpg") no-repeat center top;
 	color: $septimo;
@@ -508,7 +542,7 @@ p .copyrigth{
 //media queries landscape
 @media (max-width: 768px) and (orientation: landscape) { 
 .bienvenidos{
-	height: 100%;
+	height: 150%;
 }
 .btn-revista{
 	margin-top: .2rem;
