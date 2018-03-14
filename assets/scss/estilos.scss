@@ -403,12 +403,16 @@ p .copyrigth{
 }
 //-------------Estilos pagina nosotros--------------//
 .paginas-internas .bienvenidos{
-	height: 50vh;
+	height: 50%;
 }
 .paginas-internas .ruta{
 	background: $segundo;
 	color: $septimo;
 	padding: .8rem 0;
+}
+.paginas-internas .bienvenidos .texto-encabezado p{
+	padding-top: 3rem;
+	padding-bottom:10rem;
 }
 .paginas-internas .contenedor-acordeon{
 	background:$octavo;

@@ -428,12 +428,16 @@ p .copyrigth {
   flex: 1 1 100%; }
 
 .paginas-internas .bienvenidos {
-  height: 50vh; }
+  height: 50%; }
 
 .paginas-internas .ruta {
   background: #FF6E40;
   color: #FAFAFA;
   padding: .8rem 0; }
+
+.paginas-internas .bienvenidos .texto-encabezado p {
+  padding-top: 3rem;
+  padding-bottom: 10rem; }
 
 .paginas-internas .contenedor-acordeon {
   background: #F9F9F9; }
